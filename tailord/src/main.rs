@@ -3,6 +3,7 @@ mod fancontrol;
 pub mod led;
 mod performance;
 mod profiles;
+mod scaling;
 pub mod shutdown;
 mod suspend;
 pub mod util;

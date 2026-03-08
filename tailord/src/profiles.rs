@@ -1,6 +1,8 @@
 use std::{collections::HashMap, path::Component, path::Path};
 
-use crate::{fancontrol::profile::FanProfile, performance::PerformanceProfile};
+use crate::{
+    fancontrol::profile::FanProfile, performance::PerformanceProfile, scaling::ScalingDriver,
+};
 use tailor_api::{ColorProfile, LedControllerMode, LedDeviceInfo, LedProfile, ProfileInfo};
 use zbus::fdo;
 
